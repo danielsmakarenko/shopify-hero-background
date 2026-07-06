@@ -76,6 +76,47 @@
   margin-top: var(--cdc-bg-hero-content-margin-top-desktop);
 }
 
+.cdc-bg-hero[data-reveal-enabled="true"] .cdc-bg-hero__top-line,
+.cdc-bg-hero[data-reveal-enabled="true"] .cdc-bg-hero__heading,
+.cdc-bg-hero[data-reveal-enabled="true"] .cdc-bg-hero__subheading,
+.cdc-bg-hero[data-reveal-enabled="true"] .cdc-bg-hero__buttons {
+  opacity: 0;
+  transform: translateY(22px);
+}
+
+.cdc-bg-hero[data-reveal-enabled="true"].is-ready .cdc-bg-hero__top-line,
+.cdc-bg-hero[data-reveal-enabled="true"].is-ready .cdc-bg-hero__heading,
+.cdc-bg-hero[data-reveal-enabled="true"].is-ready .cdc-bg-hero__subheading,
+.cdc-bg-hero[data-reveal-enabled="true"].is-ready .cdc-bg-hero__buttons {
+  transition:
+    opacity var(--cdc-bg-hero-reveal-speed, 650ms) ease,
+    transform var(--cdc-bg-hero-reveal-speed, 650ms) ease;
+}
+
+.cdc-bg-hero[data-reveal-enabled="true"].is-visible .cdc-bg-hero__top-line,
+.cdc-bg-hero[data-reveal-enabled="true"].is-visible .cdc-bg-hero__heading,
+.cdc-bg-hero[data-reveal-enabled="true"].is-visible .cdc-bg-hero__subheading,
+.cdc-bg-hero[data-reveal-enabled="true"].is-visible .cdc-bg-hero__buttons {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cdc-bg-hero[data-reveal-enabled="true"].is-ready .cdc-bg-hero__top-line {
+  transition-delay: 0ms;
+}
+
+.cdc-bg-hero[data-reveal-enabled="true"].is-ready .cdc-bg-hero__heading {
+  transition-delay: calc(var(--cdc-bg-hero-reveal-speed, 650ms) * 0.2);
+}
+
+.cdc-bg-hero[data-reveal-enabled="true"].is-ready .cdc-bg-hero__subheading {
+  transition-delay: calc(var(--cdc-bg-hero-reveal-speed, 650ms) * 0.4);
+}
+
+.cdc-bg-hero[data-reveal-enabled="true"].is-ready .cdc-bg-hero__buttons {
+  transition-delay: calc(var(--cdc-bg-hero-reveal-speed, 650ms) * 0.6);
+}
+
 .cdc-bg-hero--desktop-left .cdc-bg-hero__content {
   margin-right: auto;
   text-align: left;
@@ -476,6 +517,14 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .cdc-bg-hero[data-reveal-enabled="true"] .cdc-bg-hero__top-line,
+  .cdc-bg-hero[data-reveal-enabled="true"] .cdc-bg-hero__heading,
+  .cdc-bg-hero[data-reveal-enabled="true"] .cdc-bg-hero__subheading,
+  .cdc-bg-hero[data-reveal-enabled="true"] .cdc-bg-hero__buttons {
+    opacity: 1;
+    transform: none;
+  }
+
   .cdc-bg-hero__button {
     transition: none;
   }
