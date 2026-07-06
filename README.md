@@ -2,9 +2,7 @@
 
 ## Video
 
-Local media:
-
-- `github/video.mp4`
+<video src="github/video.mp4" controls muted playsinline preload="metadata" width="100%"></video>
 
 ## Description
 
