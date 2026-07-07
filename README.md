@@ -15,10 +15,6 @@ https://github.com/user-attachments/assets/14ccedb8-a4d8-4250-8e72-0fdf6f25f871
 
 ![CDC Background Hero mobile](github/hero-background_mobile.png)
 
-## Showcase
-
-![CDC Background Hero showcase](github/hero-background-showcase.png)
-
 ## Features
 
 This section is designed as a highly customizable hero module that stays visually strong without becoming hard to maintain.
