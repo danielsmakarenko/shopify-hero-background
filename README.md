@@ -1,26 +1,25 @@
 # CDC Background Hero
 
-## Video
+A responsive Shopify hero section for bold editorial storefronts.  
+`CDC Background Hero` gives you a premium static hero system with responsive imagery, layered typography controls, reveal animations, and advanced button styling, all editable directly in the Shopify theme editor.
 
-<video src="github/video.mp4" controls muted playsinline preload="metadata" width="100%"></video>
+## Demo
 
-## Description
+https://github.com/user-attachments/assets/14ccedb8-a4d8-4250-8e72-0fdf6f25f871
 
-`CDC Background Hero` is a responsive Shopify hero section built for bold editorial storefronts. It replaces the old GSAP/parallax approach with a cleaner static hero system that still feels premium: responsive imagery, layered typography controls, animated reveal sequencing, and advanced button styling, all manageable directly in the Shopify theme editor.
-
-## Picture
+## Desktop Preview
 
 ![CDC Background Hero desktop](github/hero-background.png)
 
-## Picture
+## Mobile Preview
 
 ![CDC Background Hero mobile](github/hero-background_mobile.png)
 
-## Features
+## Showcase
 
 ![CDC Background Hero showcase](github/hero-background-showcase.png)
 
-## Text with bullets
+## Features
 
 This section is designed as a highly customizable hero module that stays visually strong without becoming hard to maintain.
 
@@ -33,21 +32,22 @@ This section is designed as a highly customizable hero module that stays visuall
 - Configurable button layout, spacing, roundness, and typography
 - Solid and outline button styles
 - Wave hover animation with independent fill, border, and text color controls
-- Zoom in and zoom out button hover effects
+- Zoom-in and zoom-out button hover effects
 - Responsive bottom corner roundness
-- Fullscreen tablet/mobile hero behavior
+- Fullscreen tablet and mobile hero behavior
 - Shopify theme editor friendly setup
 
-## How to install
+## Installation
 
 1. Copy `sections/cdc-bg-hero.liquid` into your Shopify theme `sections` folder.
 2. Copy `assets/cdc-bg-hero.css` into your Shopify theme `assets` folder.
 3. Copy `assets/cdc-bg-hero.js` into your Shopify theme `assets` folder.
-4. Open the Shopify theme editor and add the `CDC Background Hero` section.
-5. Upload your desktop, tablet, and mobile hero images.
-6. Adjust typography, spacing, animation, and button styling to match your storefront.
+4. Open the Shopify theme editor.
+5. Add the `CDC Background Hero` section.
+6. Upload your desktop, tablet, and mobile hero images.
+7. Adjust typography, spacing, animation, and button styling to match your storefront.
 
-## License (MIT)
+## License
 
 MIT License
 
@@ -70,3 +70,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+https://github.com/user-attachments/assets/d678e7c5-49e2-4091-906f-ca10ea7d343e
+
