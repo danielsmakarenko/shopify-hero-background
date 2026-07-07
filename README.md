@@ -13,6 +13,10 @@ A responsive Shopify hero section for bold editorial storefronts. Made with liqu
 
 ![CDC Background Hero mobile](github/hero-background_mobile.png)
 
+## Tablet Preview
+
+![CDC Background Hero tablet](github/hero-bg-tablet.png)
+
 ## Features
 
 This section is designed as a highly customizable hero module that stays visually strong without becoming hard to maintain.
