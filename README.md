@@ -1,11 +1,8 @@
 # Shopify Adjustable Background Hero
+https://github.com/user-attachments/assets/14ccedb8-a4d8-4250-8e72-0fdf6f25f871
 
 A responsive Shopify hero section for bold editorial storefronts. Made with liquid, css, js.
 `CDC Background Hero` gives you a premium static hero system with responsive imagery, layered typography controls, reveal animations, and advanced button styling, all editable directly in the Shopify theme editor.
-
-## Demo
-
-https://github.com/user-attachments/assets/14ccedb8-a4d8-4250-8e72-0fdf6f25f871
 
 ## Desktop Preview
 
